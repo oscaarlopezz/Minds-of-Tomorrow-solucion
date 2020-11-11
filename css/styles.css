@@ -9,6 +9,44 @@ body {
 }
 
 
+/*Barra de navegación*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0% 15% 5px 15%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 25px;
+    transition: 0.4s;
+    /*tiempo que se aplica el color de fondo a la barra de navegacion*/
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: #f30639;
+}
+
+
 /* Clear floats after the columns */
 
 .row:after {
