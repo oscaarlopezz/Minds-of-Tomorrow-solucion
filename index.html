@@ -8,6 +8,7 @@
     <!--fuente-->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/codigo.js"></script>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
         <h1>the creative after-school.</h1>
     </div>
     <!--Sección 1-->
-    <div class="row" id="section1">
+    <div class="row padding-30" id="section1">
         <div class="two-column">
             <h1>Our enrichment programs boost your kid to a brighter future.</h1>
             <p>Embark your kid into an inspirational journey of a fun and discovery throught a hands-on approach.</p>
@@ -32,7 +33,7 @@
             <img src="img/section-1.png" alt="kids playing">
         </div>
     </div>
-    <div class="row" id="section2">
+    <div class="row padding-30" id="section2">
         <div class="one-column">
             <h1>Innovative programs for ages 6 to 13</h1>
             <div class="four-column">
@@ -54,7 +55,7 @@
         </div>
     </div>
     <!--Sección 3-->
-    <div class="row" id="section3">
+    <div class="row padding-30" id="section3">
         <div class="two-column">
             <img src="img/section-3.png">
         </div>
@@ -96,20 +97,6 @@
             <p>The Studio</p>
         </div>
     </div>
-    <script>
-        // When the user scrolls down 50px from the top of the document, resize the header's font size
-        window.onscroll = function() {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                document.getElementById("nav").style.backgroundColor = "white";
-            } else {
-                document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,0.0)";
-            }
-        }
-    </script>
 </body>
 
 </html>
